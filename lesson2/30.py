@@ -1,5 +1,5 @@
 def is_friend(string):
-    if string.find('D') == 0:
+    if string[0] == 'D':
         return True
     return False
 
