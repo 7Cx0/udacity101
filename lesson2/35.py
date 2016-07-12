@@ -1,9 +1,9 @@
-def biggest(a,b,c):
+def big(a,b):
     if a>b:
-        if a>c:
-            return a
-        else:
-            return c
-    return b
+        return a
+    else:
+        return b
+def biggest(a,b,c):
+   return big(a,big(b,c)) 
 
 print biggest(6,2,3)
